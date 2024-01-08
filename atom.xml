@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://adrimunozz.github.io/paginaweb/">
+  <id>https://adrimunozz.github.io/paginaweb/</id>
+  <title>Mi Portfolio atom</title>
+  <link rel="alternate" href="https://adrimunozz.github.io/paginaweb/"/>
+  <updated>2021-12-21T19:06:00+01:00</updated>
+  <author>
+    <name>Adrián Muñoz Moreno</name>
+    <email>mumoad_aliesma2324@iesmedinaazahara.es</email>
+  </author>
+  <category term="Inicio"/>
+  <contributor>
+    <name>Adrián Muñoz Moreno</name>
+    <email>mumoad_aliesma2324@iesmedinaazahara.es</email>
+    <uri>https://adrimunozz.github.io/paginaweb/</uri>
+  </contributor>
+  <entry>
+    <id>https://adrimunozz.github.io/paginaweb/entry1</id>
+    <title>Sobre mí</title>
+    <updated>2021-02-12T18:30:00+01:00</updated>
+    <author>
+      <name>Adrián Muñoz Moreno</name>
+      <email>mumoad_aliesma2324@iesmedinaazahara.es</email>
+    </author>
+    <summary>Aquí encontrarás información sobre mí y mis asignaturas</summary>
+    <link rel="alternate" href=""/>
+  </entry>
+  <entry>
+    <id>https://adrimunozz.github.io/paginaweb/entry2</id>
+    <title>Bases de datos</title>
+    <updated>2021-02-12T18:30:00+01:00</updated>
+    <author>
+      <name>Adrián Muñoz Moreno</name>
+      <email>mumoad_aliesma2324@iesmedinaazahara.es</email>
+    </author>
+    <summary>Aquí encontrarás información sobre la asignatura gestión de bases de datos</summary>
+    <link rel="alternate" href=""/>
+  </entry>
+  <entry>
+    <id>https://adrimunozz.github.io/paginaweb/entry3</id>
+    <title>Lenguaje de marcas</title>
+    <updated>2021-02-12T18:30:00+01:00</updated>
+    <author>
+      <name>Adrián Muñoz Moreno</name>
+      <email>mumoad_aliesma2324@iesmedinaazahara.es</email>
+    </author>
+    <summary>Aquí encontrarás información sobre la asignatura lenguaje de marcas</summary>
+    <link rel="alternate" href=""/>
+  </entry>
+  <entry>
+    <id>https://adrimunozz.github.io/paginaweb/entry4</id>
+    <title>Proyectos más recientes</title>
+    <updated>2021-02-12T18:30:00+01:00</updated>
+    <author>
+      <name>Adrián Muñoz Moreno</name>
+      <email>mumoad_aliesma2324@iesmedinaazahara.es</email>
+    </author>
+    <summary>Aquí encontrarás mis proyectos más recientes</summary>
+    <link rel="alternate" href=""/>
+  </entry>
+</feed>

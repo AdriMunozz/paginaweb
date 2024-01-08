@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Inicio</title>
+<link>https://adrimunozz.github.io/paginaweb/index.html</link>
+<description>Asignaturas</description>
+<category>Gestión de bases de datos y Lenguaje de Marcas</category>
+<copyright>1º ASIR - LMSGI</copyright>
+
+<language>es-es</language>
+<lastBuildDate>Sun, 05 Dec 2021 12:15:00 +0100</lastBuildDate>
+<webMaster>mumoad_aliesma2324@iesmedinaazahara.es</webMaster>
+
+<item>
+<title>Bases de datos</title>
+<description>En este artículo encontrará información sobre Bases de datos</description>
+<link>https://adrimunozz.github.io/paginaweb/bases.html</link>
+<author>mumoad_aliesma2324@iesmedinaazahara.es</author>
+<category>bases de datos</category>
+<pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
+</item>
+<item>
+<title>Lenguaje de Marcas</title>
+<description>En este artículo encontrará información sobre Lenguaje de Marcas</description>
+<link>https://adrimunozz.github.io/paginaweb/lenguaje.html</link>
+<author>mumoad_aliesma2324@iesmedinaazahara.es</author>
+<category>lenguaje de marcas</category>
+<pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
+</item>
+
+<item>
+<title>Proyectos más recientes</title>
+<description>En este artículo encontrará información sobre Proyectos más recientes</description>
+<link>https://adrimunozz.github.io/paginaweb/recientes.html</link>
+<author>mumoad_aliesma2324@iesmedinaazahara.es</author>
+<category>proyectos mas recientes</category>
+<pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
+</item>
+</channel>
+</rss>
