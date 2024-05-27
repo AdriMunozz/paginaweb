@@ -40,7 +40,78 @@
             <div class="contenedor-sobre-nosotros">
                 <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
                 <div class="contenido-textos">
-                    <p>Todavía no existen proyectos</p>
+                    <h3 class="Inicio base datos">Creación de una base de datos</h3>
+                    <p>Hemos creado una base de datos para gestionar un concesionario, para ello hemos usado el modelo relacional E-R. Para ponerte un poco en contexto te daré el enunciado de la práctica para la cuál hemos llegado a la creación de la base de datos resultante.</p>
+
+                    <p>En un concesionario se quiere recoger datos sobre los vehículos que hay ya sean nuevos o de
+                        segunda mano, un vehículo solo puede ser una de las dos cosas. Dentro de los vehículos de
+                        segunda mano queremos saber su matrícula. De cada vehículo queremos saber su número de
+                        bastidor, cilindrada, potencia, el combustible que usa color, modelo, marca y su tipo de cambio de la caja de cambios. Tendremos unos mecánicos que se encargarán de reparar los
+                        vehículos, de cada mecánico queremos saber su nombre completo su DNI y su código de
+                        mecánico. Además queremos que quede constancia de las reparaciones que le hagamos a los
+                        vehículos.
+                        Para tasar los vehículos de segunda mano tendremos un conjunto de tasadores, de cada
+                        tasador queremos saber su código de tasador, DNI y nombre completo, dentro de la sección
+                        de los tasadores habrá un jefe que será el responsable de todos los demás. En la realización de
+                        las tasaciones, queremos saber el código de la tasación, la fecha y el estado del vehículo. Para vender los vehículos tendremos que tener a unos vendedores que hagan ventas. De cada vendedor tendremos un código de vendedor, DNI y nombre completo. De cada venta queremos saber el número de venta y la fecha. Los vendedores también pueden vender repuestos, y de estos, queremos conocer su código de artículo, marca y modelo.
+                    </p>
+
+                    <p>Lo primero que tenemos que hacer es crear el diseño lógico de la base de datos con el modelo E-R.</p>
+
+                    <p>Una vez tengamos el esquema de la base de datos tendremos que aplicar las reglas preparatorias y las reglas de transformación:</p>
+
+                    <h4 class="Reglas preparatorias"</h4>
+
+                        <p>Regla Preparatoria 1. Eliminación de atributos múltiples
+                                Todos los atributos múltiples se transformarán en un tipo de entidad débil y mantendrá
+                                una relación con el tipo de entidad en el que estaba definido.
+                                Esta relación será:
+                                uno a N si el atributo múltiple era atributo identificador alternativo
+                                N a N en caso contrario
+                                Si el nuevo tipo de entidad puede puede identificarse con su atributo será débil por
+                                existencia y si no, se pueden adoptar dos soluciones:
+                                Hacer la debilidad por identificación.
+                                Añadir un nuevo atributo que pueda identificar unívocamente cada objeto del
+                                nuevo tipo de entidad.
+                                Si el atributo múltiple lo era de una interrelación, entonces el tipo de entidad se
+                                relacionará con los tipos de entidades implicadas.
+                                
+                                Regla preparatoria 2. Eliminación de atributos compuestos
+                                Todos los atributos compuestos deben ser descompuestos en atributos simples.
+                                Eliminándose la agrupación de atributos.
+                                
+                            
+                            Eliminación de las relaciones jerárquicas:
+                            RP 3. Eliminación del supertipo: Solo puede ser aplicada a interrelaciones
+                            jerárquicas totales y lo más conveniente es aplicar solo a interrelaciones exclusivas.
+                            Todos los atributos del supertipo pasarán a formar parte de los subtipos. Todas las
+                            relaciones en las que participara el supertipo, participarán ahora los subtipos. Si la
+                            jerarquía era exclusiva, los subtipos participarán con cardinalidad mínima 0 en las
+                            interrelaciones heredadas.
+                            RP 4. Eliminación de los subtipos: No son muy adecuadas para inclusivas
+                            parciales    
+                            
+                            Todos los atributos de los subtipos pararán a ser atributos del supertipo. De la
+                            misma forma, el supertipo adoptará las interrelaciones en las que intervinieran los
+                            subtipos.
+                            Si es exclusiva, participará con cardinalidad mínima 0 en las interrelaciones que
+                            adquiere por eliminación de los subtipos.
+                            Si es inclusiva, participará con las cardinalidades que participaban los subtipos.
+                            El atributo cualificador de la jerarquía pasará a formar parte del supertipo de la
+                            siguiente forma:
+                              Si es exclusiva no formará parte de la clave
+                             Si es inclusiva formará parte de la clave
+                            Si es parcial, podrá tomar valores nulos
+                            
+                            RP 5. Eliminación de la jerarquía: Se transformará en tantos tipos de
+                            interrelación 1:1 como subtipos haya.
+                            Si es exclusiva, las entidades de los subtipos participarán con cardinalidad
+                            mínima 0
+                            Si es inclusiva, las entidades de los subtipos participarán con cardinalidad
+                            mínima
+                            La entidad del supertipo participará con cardinalidad 1:1 y se debe analizar la
+                            necesidad de que los subtipos tengan una relación de debilidad por identificación.
+</p>
                 </div>
             </div>
         </section>
