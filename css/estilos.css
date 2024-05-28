@@ -206,3 +206,26 @@ footer{
         font-size: 20px;
     }
 }
+
+
+@media screen and (max-width:900px){
+    header {
+        background-position: center;
+    }
+    .contenedor-sobre-nosotros{
+        flex-direction: cloumn;
+        justify-content: center;
+        align-items: center;
+     }
+
+        .sobre-nosotros .contenido-textos{
+width: 90%;
+            
+        }
+    .imagen-about-us{
+width: 90%;
+        
+    }
+    
+}
+
