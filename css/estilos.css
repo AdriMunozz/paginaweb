@@ -162,6 +162,26 @@ footer{
     color: #9e9797;
 }
 
+flex-container {
+    display: flex;
+    background: black;
+    border: 1px rgb(239, 184, 16);
+    flex-direction: row;
+}
+
+.caja {
+    border: 1px solid rgb(70,69,69);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px; 
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
 @media screen and (max-width:900px){
     header{
         background-position: center;
