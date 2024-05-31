@@ -93,12 +93,12 @@ header .textos-header{
 
 .caja {
     border: 1px solid #7c5b00;
-    background-color: white;
-    color: black;
+    background-color: purple;
+    color: blue;
     font-weight: bold;
-    width: 220px;
-    height: 220px;
-    line-height: 220px;
+    width: 320px;
+    height: 320px;
+    line-height: 320px;
     text-align: center;
     margin: 5px;
 }
