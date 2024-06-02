@@ -72,21 +72,7 @@ header .textos-header {
     width: 100%;
 }
 
-/* Estilos para contenido */
-h1, h2, h3, h4, h5, h6 {
-  color: #6c5ce7; /* Color morado */
-  position: relative;
-}
 
-h1, h2, h3, h4, h5, h6::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #34C759; /* Color verde */
-}
 
 .contenido-textos p {
     padding-bottom: 30px;
